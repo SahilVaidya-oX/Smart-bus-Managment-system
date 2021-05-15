@@ -1,0 +1,381 @@
+
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #4caf50;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+
+.btn {
+ width: 100%;
+  background-color: white;
+  color: black;
+padding: 5px;
+  font-size: 25px;
+ cursor: pointer;
+ margin: 12px 0;
+ text-align: center;
+  border: 2px solid #4CAF50;
+}
+
+.btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+.addbus{
+
+text-align:center;
+font-size:30px;
+
+margin-top:100px;
+}
+
+.busno{
+margin-right:45px;
+}
+.button1 {
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 1px 0;
+  text-align: center;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #4CAF50;
+  color: white;
+  }
+
+  .label3
+  {
+    margin-left: 40px;
+  }
+
+
+
+
+
+  .navbar a{
+    text-decoration: none;
+    width: 50px;
+    font-size: 19px;
+
+}
+.navbar{font-family:Arial;
+
+}
+.navbar ul{
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.navbar li{
+  color:#fff ;
+  text-align: center;
+  background: green;
+  display: block;
+  width: 221px;
+  float: left;
+  padding: 1.02rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li a {
+  color: #fff;
+}
+
+li:hover,
+li:focus-within {
+  background: orange;
+  cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul {
+  background: orange;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+.select
+{
+  text-align: center;
+  margin-top: 180px;
+}
+
+
+
+
+
+
+.{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Contact-Us{
+  overflow: hidden;
+  text-align: center;
+  background: #34495e;
+  padding: 60px;
+
+}
+.Contact-Us h1{
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  color: white;
+  font-size: 40px;
+}
+
+.border{
+display: block;
+margin: auto;
+width: 160px;
+height: 3px;
+background: #3498db; 
+margin-bottom: 40px;
+}
+
+.ps{
+  margin-bottom: 40px;
+}
+.ps a{
+  display: inline-block;
+  margin: 0 30px;
+  width: 160px;
+  height: 160px
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+.ps a img{
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 0.4s all;
+}
+.ps a:hover > img{
+  filter: none;
+
+}
+.section{
+  width: 600px;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  text-align: center; 
+  height: 0;
+  overflow: hidden;
+}
+
+.section:target{
+height: auto;
+}
+.name{
+display: block;
+margin-bottom: 30px;
+text-align: center;
+text-transform: uppercase;
+font-size: 22px;
+
+}
+
+
+
+
+.keyfeatures{
+  overflow: hidden;
+  text-align: center;
+  background: #34495e;
+  padding: 60px;
+}
+
+
+
+
+
+a*{
+  margin: 0;
+  padding: 0;
+  font-family: "open sans",sans-serif;
+}
+.about-section{
+  width: 100%;
+  background: #f1f1f1;
+  padding: 40px 0;
+}
+.inner-width{
+  max-width: 1000px;
+  overflow: hidden;
+  padding: 0 20px;
+  margin: auto;
+}
+.about-section h1{
+  text-align: center;
+}
+.border{
+  width: 100px;
+  height: 3px;
+  background: #e74c3c;
+  margin: 40px auto;
+}
+.about-section-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-section-col{
+  flex: 50%;
+}
+.about{
+  padding-right: 30px;
+}
+.about p{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about a{
+  display: inline-block;
+  color: #e74c3c;
+  text-decoration: none;
+  border: 2px solid #e74c3c;
+  border-radius: 24px;
+  padding: 8px 40px;
+  transition: 0.4s linear;
+}
+.about a:hover{
+  color: #fff;
+  background: #e74c3c;
+}
+.skills{
+  padding-left: 30px;
+}
+.skill{
+  margin-bottom: 10px;
+}
+.progress{
+  width: 100%;
+  height: 12px;
+  background: #ddd;
+  border-radius: 12px;
+}
+.progress-bar{
+  height: 12px;
+  background: #e74c3c;
+  border-radius: 12px;
+}
+.p1{
+  width: 90%;
+}
+.p2{
+  width: 70%;
+}
+.p3{
+  width: 50%;
+}
+.progress-bar span{
+  float: right;
+  margin-right: 6px;
+  line-height: 13px;
+  color: #fff;
+  font-size: 12px;
+}
+@media screen and (max-width:700px) {
+  .about-section-col{
+    flex: 100%;
+    margin: 10px 0;
+  }
+  .about,.skills{
+    padding: 0;
+  }
+  .about{
+    text-align: center;
+  }
+}
+
+
+.buspass{
+ text-align:center;
+font-size:30px;
+
+ margin-top:200px;
+}
